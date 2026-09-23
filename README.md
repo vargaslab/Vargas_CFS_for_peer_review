@@ -59,7 +59,7 @@ These commands assume the original project layout and the required `config/`, `d
 
 The raw-workflow runner requires the integrated US-StJ observational dataset, data-contract records, author decisions, and locked model-selection reports from the original project. The publication runner also requires frozen processed inputs and compact publication-input files produced earlier in the workflow.
 
-The repository does not include an automated downloader or a complete reconstruction procedure for the source AmeriFlux and PhenoCam records. Consequently, reviewers can inspect the analytical logic and figure-generation code, but they cannot regenerate the reported numerical results or rendered figures from the distributed files alone.
+The repository does not include an automated downloader or a complete reconstruction procedure for the source AmeriFlux and PhenoCam records. Consequently, reviewers can only inspect the analytical logic and figure-generation code.
 
 A final archival release may pair this code with a separately deposited, DOI-linked set of permitted derived inputs.
 
